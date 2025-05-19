@@ -71,7 +71,7 @@ for img in images:
     signal = imread(input_dir + img)
     image = sample_bilinear(signal, x, y)
     imsave(output_dir + img, image)
-    print(f'Done image {counter}/{len}')
+    print(f'Done image {counter}/{len}')        #AGGIUNTO PRINT
     counter += 1
 
 
