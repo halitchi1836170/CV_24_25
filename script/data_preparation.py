@@ -46,7 +46,7 @@ def sample_bilinear(signal, rx, ry):
 
 
 ############################ Apply Polar Transform to Aerial Images in CVUSA Dataset #############################
-S = 750  # Original size of the aerial image
+S = 370  # Original size of the aerial image (corretto a 370, prima era sbagliato)
 height = 128  # Height of polar transformed aerial image
 width = 512   # Width of polar transformed aerial image
 
